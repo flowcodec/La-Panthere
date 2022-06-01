@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "critical": "^4.0.1"
+  }
+}
