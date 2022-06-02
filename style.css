@@ -287,7 +287,10 @@ a:hover {
 #bloc-1-hero h1 {
     font-size: 32px;
 }
-
+.citation>span {
+    font-weight: bold;
+    font-style: italic;
+}
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -300,18 +303,20 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    height: 40px; 
+    width: 217px;
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
     height: 40px; 
-    width: 220px;
+    width: 217px;
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    height: 40px; 
+    width: 217px;
 }
 
 .nav-center .navbar-brand img {
@@ -719,6 +724,12 @@ p {
     font-weight: 700;
 }
 
+.col-sm-12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .social-média {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -1032,7 +1043,7 @@ h4 {
     }
     .voffset {
         margin-top: 5px;
-    }
+    }c
     .voffset-md {
         margin-top: 20px;
     }
