@@ -688,6 +688,11 @@ a {
     justify-content: center;
     flex-direction: column;
 }
+.image-resize-mode{
+    height: 100px;
+    width: 100px;
+}
+
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
@@ -728,6 +733,11 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.row-no-gutters{
+    display: flex;
+    justify-content: space-around;
 }
 
 .social-média {
@@ -902,10 +912,18 @@ h4 {
     .container {
         width: 100%;
     }
+
+    .col-sm-6 a img{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
     .col-sm-6 a{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        align-items: center;
     }
     .b-parallax {
         background-attachment: scroll;
